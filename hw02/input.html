@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                Customer data
+            </legend>
+            <div>
+                <label for="First name">
+                    First name
+                </label>
+                <input placeholder="First name" id="First name" type="text">
+            </div>
+            <br>
+            <div>
+                <label for="Last name">
+                    Last name
+                </label>
+                <input  placeholder="Last name" id="Last name" type="text">
+            </div>
+            <br>
+            <div>
+                <label for="email">
+                    Email
+                </label>
+                <input type="email" id="email" pattern="+@gmail.com" size="30">
+            </div>
+            <br>
+            <div>
+                <label for="Registration Date">
+                    Registration Date
+                </label>
+                <input type="date" id="Registration Date"> 
+            </div>
+            <br>
+            <div>
+                <label for="appt">
+                 Time
+                </label>
+                <input type="time" id="appt" name="appt" min="00:00" max="24:00">
+            </div>
+            <br>
+            <div>
+                <label for="week">
+                    Week
+                    <input type="week" name="week" id="week" min="2022-W1" max="2030-W52">
+                </label>
+            </div>
+            <br>
+            <div>
+                <label for="password-input">
+                    Password
+                </label>
+                <input placeholder="password" type="password" id="password-input"> 
+            </div>
+            <br>
+
+            <div>
+                <label for="picture">
+                </label>
+            <input type="file" id="picture" name="picture" accept="image/png, image/jpeg">
+            </div>
+            <br>
+            <div>
+            <br>
+            <div>
+                <label for="site-search">
+                </label>
+                <input type = "search" id="site-search">
+                <button>Search</button>
+            </div>
+            <br>
+                <legend>
+                Location
+                </legend>
+                Europe
+                <input  type="checkbox" id="Europe" name="Europe" >
+            </div>
+            <div> 
+                USA
+                <input  type="checkbox" id="USA" name="USA" >
+            </div>
+            <div> 
+                CA
+                <input  type="checkbox" id="CA" name="CA" >
+            </div>
+            <br>
+            <div>
+                <label for="url">
+                    Own site
+                    <input type="url" name="url" id="url" placeholder="https://test.com" size="30" pattern="https://.*">
+                </label>
+            </div>
+            <br>
+            <div>
+                <input type="button" value="confirmation">
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="submit data">
+            </div>
+            <br>
+            <div class="controls">
+                <input type="reset" value="Reset data">
+
+            </div>
+
+        </fieldset>
+    </form>
+</body>
+</html>
+
+
