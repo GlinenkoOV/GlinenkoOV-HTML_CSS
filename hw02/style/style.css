@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    padding: 65px 0;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+header a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.logo-block,
+.social-block{
+    display: inline-block;
+}
+.logo-block{
+    width: 400px;
+}
+
+.social-block{
+    width: 556px;
+    text-align: right;
+    vertical-align: top;
+    padding-top: 7px;
+}
+
+.social-block a{
+    margin-right: 20px;
+}
+.social-block a:last-child{
+    margin-right: 0px;
+}
+
+.Get_unlimited{
+    height: 421px;
+    background-color: #FAC960;
+}
+
+.Get_unlimited h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 44px;
+    color: #8A6D2F;
+
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+input::placeholder{
+    color: #999999;
+    font-size: 30px;
+}
+
+input{
+    height: 54px;
+    width:560px;
+    height:54px;
+    padding: 0px 194px 0px 36px;
+    
+}
+button{
+    color:white;
+    border: none;
+    background: #A8863D;
+    height: 54px;
+    width:240px;
+    border-radius: 0px 2px 2px 0px;
+    font-size: 30px;
+    margin-left: 6px;
+}
+
+.Unlimited_space{
+    text-align: center;
+    height:438px;
+    background-color: #F2F2F2;;
+
+}
+
+.Unlimited_space h1{
+    text-align: center;
+    color:rgba(0, 0, 0, 0.56);
+    padding-top: 77px;
+    padding-bottom: 32px;
+    font-size: 37px;
+    margin: 0 auto;
+}
+p{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
+    padding-bottom: 56px;
+    font-size: 23px;
+    margin: 0 auto;
+}
+
+.Unlimited_space img{
+    display: block;
+    padding-left: 627px;
+    padding-right: 626.41px;
+    margin-bottom: 81px;
+}
+
+.Mobile_Access h1{
+    text-align: center;
+    color:rgba(0, 0, 0, 0.56);
+    font-size: 37px;
+    padding-top: 88.62px;
+    padding-bottom: 32px;
+
+}
+.Mobile_Access img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 32px;
+    padding-bottom: 21.81px;
+
+}
+
+
+.Tell{
+    background-color: #FAC960;
+    border-radius: 0px;
+    height: 313px;
+}
+.Tell h1{
+    text-align: center;
+    color: #8A6D2F;
+    padding-top: 54px;
+    padding-bottom: 31px;
+    font-size: 37px;
+}
+.Tell p{
+    color:rgba(0, 0, 0, 0.4);
+    padding-bottom: 33px;
+}
+
+.Tell button{
+    width: 61px;
+    height: 22px;
+    border-radius: 3px;
+    margin: 0 auto;
+    display: block;
+   background-color: #FFFFFF;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+.footer-logo{
+    margin-top: 85.43px;
+    margin-bottom: 29px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
