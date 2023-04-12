@@ -107,7 +107,7 @@ p{
 }
 
 .Unlimited_space img{
-    display: inline-block;
+    display: block;
     padding-left: 627px;
     padding-right: 626.41px;
     margin-bottom: 81px;
