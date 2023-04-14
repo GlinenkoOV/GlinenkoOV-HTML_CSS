@@ -1,8 +1,6 @@
 *{
     box-sizing: border-box;
 }
-
-
 body{
     height: 100%;
     background-color:rgba(28, 82, 221, 0.56);
@@ -10,39 +8,26 @@ body{
     background-repeat: no-repeat;
     
 }
+.wrapper{
+    width: 1600px;;
+    margin: 0 auto;
+}
 
 .block1{
-   
-    margin-top: 58px;
-    margin-right: 324px;
-
+    text-align: right;
+    margin-right: 45px;
+    margin-top: 63px;
+    margin-left: 700px;
 
 }
 
 .block1 a{
-   
-    color: #FAFAFA;
-    font-size: 48px;
-    
-    
-}
-
-
-.block2{
-    
-    text-align: right;
-    margin-right: 45px;
-    
-
-}
-
-.block2 a{
     text-decoration: none;
     color: #fff;
     font-size: 30px;
     margin-right: 60px;
-
 }
+
 
 .button1{
     background: linear-gradient(90deg, #345AA4 -28.35%, rgba(63, 0, 156, 0) 153.96%);
@@ -54,6 +39,70 @@ body{
     padding-left: 36px;
     padding-right: 36px;
     font-size: 24px;
-  
 }
+
+.block2{
+    width: 266px;
+    text-align: left;
+    margin-top: -85px;
+    margin-left:22px
+}
+
+.block2 h1{
+
+    font-size: 48px;
+    margin-top: 0px;
+    color: #fff;
+}
+
+.logo{
+    background-color: blue;
     
+}
+
+
+.bg{
+    padding: 850px;
+    padding-bottom: 73px;
+    background-image: url('../img/Working\ process\ \(1\).png');
+    background-position: top 187px right 46px;
+    background-repeat: no-repeat;
+    display:inline-block;
+    margin-right: 45px;
+   
+}
+
+.content{
+    display: inline-block;
+}
+
+.text{
+    display: inline-block;
+}
+h2{
+    font-size: 70px;
+    color:#fff;
+    text-align: left;
+    margin-left: 103px;
+    margin-top: 218px;
+    margin-bottom: 8px;
+}
+
+h3{
+    font-size: 36px;
+    color: #fff;
+    text-align: left;
+    margin-left: 103px;
+    margin-top: 0px;
+}
+.button2{
+    display: inline-block;
+    background: linear-gradient(90deg, #345AA4 0%, rgba(63, 0, 156, 0.92) 164.26%);
+    width: 277px;
+    height: 85px;
+    font-size: 36px;
+    color: #fff;
+    border: none;
+    border-radius: 13px;
+    margin-left: 103px;
+}
