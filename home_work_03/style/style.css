@@ -45,7 +45,27 @@ body{
     width: 266px;
     text-align: left;
     margin-top: -85px;
-    margin-left:22px
+    margin-left:22px;
+    position:absolute; 
+ 
+
+}
+.logo{
+    background-color: #1C52DD; 
+    height: 30px;
+    width:30px;
+}
+.logo2{
+    width:10px;
+    height: 10px;
+    background-color: #fff;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+   
+   
 }
 
 .block2 h1{
@@ -55,17 +75,13 @@ body{
     color: #fff;
 }
 
-.logo{
-    background-color: blue;
-    
-}
-
 
 .bg{
     padding: 850px;
     padding-bottom: 73px;
     background-image: url('../img/Working\ process\ \(1\).png');
-    background-position: top 187px right 46px;
+    /* background-position: top 187px right 46px; */
+    background-position: right;
     background-repeat: no-repeat;
     display:inline-block;
     margin-right: 45px;
@@ -78,6 +94,8 @@ body{
 
 .text{
     display: inline-block;
+    position: absolute;
+    top: 218px;
 }
 h2{
     font-size: 70px;
@@ -105,4 +123,9 @@ h3{
     border: none;
     border-radius: 13px;
     margin-left: 103px;
+    margin-bottom: 338px;
+    margin-top: 55px;
+    /* position: absolute; */
+    position: bottom 338 px;
+    
 }
