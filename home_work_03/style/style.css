@@ -46,14 +46,16 @@ body{
     text-align: left;
     margin-top: -85px;
     margin-left:22px;
-    position:absolute; 
- 
-
+    /* position:absolute;  */
+    display: flex;
 }
 .logo{
     background-color: #1C52DD; 
     height: 30px;
     width:30px;
+    position: absolute;
+    display: inline-block;
+    
 }
 .logo2{
     width:10px;
@@ -64,8 +66,8 @@ body{
     margin-top: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
-   
-   
+    display: inline-block;
+    margin-right: 2px;
 }
 
 .block2 h1{
@@ -73,6 +75,9 @@ body{
     font-size: 48px;
     margin-top: 0px;
     color: #fff;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    
 }
 
 
@@ -80,7 +85,7 @@ body{
     padding: 850px;
     padding-bottom: 73px;
     background-image: url('../img/Working\ process\ \(1\).png');
-    /* background-position: top 187px right 46px; */
+    background-position: top 187px right 46px;
     background-position: right;
     background-repeat: no-repeat;
     display:inline-block;
