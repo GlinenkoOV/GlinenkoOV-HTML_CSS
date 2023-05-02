@@ -3,6 +3,7 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 header{
     padding: 65px 0;
@@ -108,9 +109,7 @@ p{
 
 .Unlimited_space img{
     display: block;
-    padding-left: 627px;
-    padding-right: 626.41px;
-    margin-bottom: 81px;
+    margin:auto
 }
 
 .Mobile_Access h1{
@@ -157,33 +156,40 @@ p{
    background-color: #FFFFFF;
 }
 
+footer{
+    background-color: #F2F2F2;
+    padding-bottom: 81px;
+    height: 240px;
+    text-align:center;
+    text-decoration: none;
+}
 
-.text-center{
+footer a>img{
+    width: auto;
+    height: 18px;
+    margin: auto;
+    
+}
+
+.logo-footer{
+  display:inline-block;
+  padding-top: 81px;
+  padding-bottom: 29px;
+  text-align: center;
+  
+}
+
+.social-logo{
     text-align: center;
+    padding-top: 81px;
+    padding-bottom: 24px;
+  
 }
-
-.footer-logo{
-    margin-top: 85.43px;
-    margin-bottom: 29px;
+.social-footer a{
+    
+    margin-right: 22px ;
+  
 }
-
-.social-footer-link{
-    display: inline-block;
-    margin: 0 50px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
