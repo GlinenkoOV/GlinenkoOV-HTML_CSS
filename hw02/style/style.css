@@ -67,21 +67,21 @@ input::placeholder{
 }
 
 input{
-    height: 54px;
     width:560px;
     height:54px;
-    padding: 0px 194px 0px 36px;
+    padding: 0px 36px 0px 36px;
     
 }
 button{
     color:white;
     border: none;
     background: #A8863D;
-    height: 54px;
-    width:240px;
     border-radius: 0px 2px 2px 0px;
     font-size: 30px;
     margin-left: 6px;
+}
+button a{
+text-decoration: none;
 }
 
 .Unlimited_space{
@@ -156,45 +156,31 @@ p{
    background-color: #FFFFFF;
 }
 
+
 footer{
     background-color: #F2F2F2;
     padding-bottom: 81px;
-    height: 240px;
-    text-align:center;
+    text-align: center;
+}
+
+.footer-logo{
+    padding-top: 81px;
+    margin-bottom: 24px;
+    margin-right: -100px;
+}
+
+.social-footer-link{
+    display: inline-block;
+    margin:0 22px;
+ 
+}
+
+.footer a{
     text-decoration: none;
 }
 
-footer a>img{
+.footer-social a>img{
     width: auto;
     height: 18px;
     margin: auto;
-    
 }
-
-.logo-footer{
-  display:inline-block;
-  padding-top: 81px;
-  padding-bottom: 29px;
-  text-align: center;
-  
-}
-
-.social-logo{
-    text-align: center;
-    padding-top: 81px;
-    padding-bottom: 24px;
-  
-}
-.social-footer a{
-    
-    margin-right: 22px ;
-  
-}
-
-
-
-
-
-
-
-
