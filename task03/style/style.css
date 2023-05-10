@@ -8,27 +8,33 @@ body{
     background-repeat: no-repeat;
     margin: 0 auto;
 }
-.wrapper{
+.container{
     margin: 0 auto;
 }
-
-
-
-
-.block1{
+header a{
+    display: inline-block;
+}
+.logo-block,
+.navigation{
+    display: inline-block;
+}
+.navigation {
     text-align: right;
     margin-right: 45px;
     margin-top: 63px;
     margin-left: 750px;
 }
 
-.block1 a{
+.navigation a{
     text-decoration: none;
     color: #fff;
     font-size: 30px;
     margin-right: 60px;
-   
-
+}
+.logo-block{
+    width: 319px;
+    margin-left: 103px;
+    margin-right: 324px;
 }
 
 
@@ -42,49 +48,8 @@ body{
     padding-left: 36px;
     padding-right: 36px;
     font-size: 24px;
+  
 }
-
-
-
-.logo h1{
-    font-size: 48px;
-    color: #fff;
-    margin-top: 58px;
-    padding-left: 11px;
-    font-weight: 600;
-    line-height: 56px;
-    padding: 11px 270px 11px 11px;
-   
-}
-
-
-.logo h1::before{
-    content: "";
-    background:linear-gradient( #345AA4, #3F009C); 
-    height: 43px;
-    width:42px;
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-left: 103px;
-    display: inline-block;
-    position: relative;
-    z-index: 1;
-    top:4px;
-    left:-9px;
-}
-.logo h1::after{
-    content:"";
-    width: 20px;
-    height: 20px;
-    background-color: #fff;
-    display: inline-block;
-    position: relative;
-    z-index: 2;
-    top: -5px;
-    left: -310px;
-}
-
 
 
 .bg{

@@ -1,0 +1,42 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+
+.items{
+    
+    position: relative;
+    background-color: black;
+}
+.item{
+    width: 100px;
+    height: 100px;
+}
+.red{
+    background-color: red;
+    
+}
+.green{
+    background-color: green;
+    
+}
+.yellow{
+    background-color: yellow;
+    position: absolute;
+    /* top:0;
+    right: 0;
+    */
+    top:50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    
+}
+.blue{
+    background-color: blue;
+    
+}
+.gray{
+    background-color: gray;
+    
+}
