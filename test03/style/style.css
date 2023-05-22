@@ -1,118 +1,57 @@
 *{
-    box-sizing: border-box;
-  }
-  a{
-    text-decoration: none;
-    color: white;
-  }
-  body{
-    width: 100%;
-    max-width: 1600px;
-    background-color: #1C52DD8F;
-    margin: 0 auto;
-    font-family:Roboto;
-    color: white;
-  }
-  /*-------Шапка-----------------------------------------------------------------------*/
-  .header{
-    min-height: 110px;
-    display: flex;
-    align-items: center;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  max-width: 1600px;
+  background-color: #1C52DD8F;
+  margin: 0 auto;
+  font-family:Roboto;
+  color: white;
+  margin-top: 77px;
+} 
+.wraper{
+  width: 1600px;
+  margin: 0 auto;
   
-  }
-  .logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .logo_img{
-    width: 42px;
-    height: 42px;
-    background:linear-gradient(45deg,rgb(59, 115, 238),rgb(96, 32, 245));
-    border-radius: 2px 0 0 2px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 3px 3px 5px black;
-    
-  }
-  .logo_img_ins{
-    width: 20px;
-    height: 20px;
-    background-color: white;
-  }
-  .compname_tite{
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 56px;
-  padding: 11px 270px 11px 11px;
-  }
-  .nav_list{
-    list-style: none;
-    display: flex;
-  }
+ }
+
+.logo{
+  display: inline-block;
+  width: 319px;
+  height:56px;
   
-  nav{
-   
-  }
-  .nav_link{
-  font-weight: 600;
+ }
+
+
+nav{
+  display: inline-block;
+  width: 900px;
+  vertical-align: top;
+  text-align: right;
+
+}
+
+
+a{
+  text-decoration: none;
+  color: white;
   font-size: 30px;
-  line-height: 35px;
-  color: #EBEBEB;
+  margin-right: 60px;
   }
-  .nav_item:not(:last-child){
-    margin: 0 60px 0 0 ;
-  }
-  .nav_link:hover{
-     background: linear-gradient(90deg, #345AA4 -28.35%, rgba(63, 0, 156, 0) 153.96%);
-    border-radius: 13px;
-    padding: 17px 36px;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 28px;
-    width: 164px;
-    height: 61px;
-    color:  #E5E5E5;
-    text-transform: uppercase;
-    font-family:Roboto;
-    }
-    /*-------Тело--------------------------------------------------------------------*/
-    main{
-      display: flex;
-      align-items: center;
-      
-    }
-    .main_ifo{
-     max-width: 550px;
-     margin-right: 75px;
-    }
-    .main_block_title{
-      font-weight: 600;
-      font-size: 70px;
-      line-height: 82px;
-      margin-bottom: 8px;
-      
-    }
-    .main_block_text{
-      font-weight: 500;
-      font-size: 36px;
-      line-height: 42px;
-      color: #E5E5E5;;
-    }
-    .main_block_btn{
-      margin-top: 55px;
-      background: linear-gradient(90deg, #345AA4 0%, rgba(63, 0, 156, 0.92) 164.26%);
-      border-radius: 13px;
-      width: 275px;
-      height: 85px;
-      font-weight: 500;
-      font-size: 36px;
-      line-height: 42px;
-      color: #E5E5E5;
-      padding: 21px 60px;
-    }
-    .img_right{
-      max-width: 851px;
-      height: 678px;
-    }
+
+.button{
+  background: linear-gradient(90deg, #345AA4 -28.35%, rgba(63, 0, 156, 0) 153.96%);
+  color: #E5E5E5;
+  border-radius: 13px;
+  border:none;
+  padding-top: 17px;
+  padding-bottom: 16px;
+  padding-left: 36px;
+  padding-right: 36px;
+  font-size: 24px;
+   
+}
+ 
+
+
