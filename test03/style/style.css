@@ -2,42 +2,47 @@
   box-sizing: border-box;
 }
 body{
-  width: 100%;
-  max-width: 1600px;
   background-color: #1C52DD8F;
   margin: 0 auto;
   font-family:Roboto;
-  color: white;
-  margin-top: 77px;
+  color: #ffffff;
+ 
 } 
 .wraper{
   width: 1600px;
   margin: 0 auto;
-  
- }
 
+ }
+header{
+  padding-top: 77px;
+  margin-right: 45px;
+  margin-left: 103px;
+}
 .logo{
   display: inline-block;
   width: 319px;
   height:56px;
-  
+  margin-right: 324px;
  }
 
 
 nav{
-  display: inline-block;
-  width: 900px;
+  display: inline-block;  
   vertical-align: top;
   text-align: right;
+  width: 1900px;
 
 }
-
+nav:last-child{
+  margin-right: 39px;
+}
 
 a{
   text-decoration: none;
   color: white;
   font-size: 30px;
   margin-right: 60px;
+  line-height: 35px;
   }
 
 .button{
@@ -50,8 +55,64 @@ a{
   padding-left: 36px;
   padding-right: 36px;
   font-size: 24px;
+  display: inline-block;
    
 }
  
 
+.content{
+  margin-top: 218px;
+  display: inline-block;
+  margin-left: 103px;
+}
+.text h1{
+  color: #FFFFFF;
+  font-size: 70px;
+  line-height: 82px;
+  text-align: left;
+  width: 520px;
+  height: 164px;
+ 
+}
+.text p{
+  color: #E5E5E5;
+  font-size: 36px;
+  line-height: 42x;
+  text-align: left;
+  vertical-align: top;
+  width: 544px;
+  height: 42px;
+  padding-top: 8px;
+}
+.button2 button{
+  width: 277px;
+  height: 85px;
+  color: #E5E5E5;
+  text-align: center;
+  font-size: 36px;
+  line-height: 42px;
+  background: #345AA4;
+  border: none;
+  border-radius: 13px;
+  display: inline-block;    
+}
+.button2{
+  padding-top: 55px;
+}
+.image{        
+      width: 833px;
+      height: 664px;
+      text-align: right;
+      vertical-align: top;
+      margin: 0 auto;
+      padding: 73px 46px 173px 100px;
+      display: inline-block;
+    
+}
 
+section .wrapper{
+  background-image: url(../img/Working\ process\ \(1\).png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  
+}
